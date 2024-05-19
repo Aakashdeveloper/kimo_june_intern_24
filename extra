@@ -9,7 +9,7 @@
 * Githistory
 * gitlens
 * spell check
-
+* live server
 
 
 
@@ -31,3 +31,22 @@ nodejs + express
 Mongodb
 react
 python
+
+
+html
+> wrapper 
+head
+> All the linking css/javascript
+body
+> All content that is visible to us
+
+//////
+inline
+> start in the same line
+> Only take the width required as per content
+> span, a, img
+
+block
+> always start from new line
+> always take the whole width of screen
+> p, div h1
