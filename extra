@@ -58,4 +58,59 @@ Your skills
 Hobbies
 Maps
 Footer
-Social Link > Pending
+Social Link
+
+////css
+TagName
+h1, p
+
+class
+> to give similar property to multiple tags
+> .
+
+id
+> to target something unique
+> #
+
+
+//////
+inline
+styleTag
+stylesheet
+
+inline>styleTag>stylesheet
+
+inline
+{
+    color:red,
+    height:20px;
+    font-size:30px
+}
+
+styleTag
+{
+    color:orange,
+    background:olive
+    z-index:10
+}
+
+stylesheet
+{
+    height:30px;
+    z-index:30;
+    width:50px;
+    display:none
+}
+
+{
+    color:red,
+    height:20px;
+    font-size:30px;
+    background:olive
+    z-index:10;
+      width:50px;
+    display:none
+}
+
+
+https://github.com/Aakashdeveloper/myprofilecode
