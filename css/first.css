@@ -1,0 +1,22 @@
+h2{
+    text-align: center;
+    color:purple
+}
+.card{
+    height:450px;
+    width:20%;
+    background:skyblue;
+    float: left;
+    margin-left:3%;
+    padding:10px;
+    overflow: scroll;
+}
+.brown{
+    background: #9c907a;
+}
+#green{
+    background: #967e7e; 
+}
+.blue{
+    background-color: #36667b;
+}
