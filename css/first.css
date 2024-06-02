@@ -2,6 +2,9 @@ h2{
     text-align: center;
     color:purple
 }
+#main{
+ display: inline-block                                                                                                                                                                                                                                              ;
+}
 .card{
     height:450px;
     width:20%;
@@ -11,6 +14,12 @@ h2{
     padding:10px;
     overflow: scroll;
 }
+
+.card img{
+    width:100%;
+    height: 200px;
+}
+
 .brown{
     background: #9c907a;
 }
@@ -19,4 +28,29 @@ h2{
 }
 .blue{
     background-color: #36667b;
+}
+
+#flatCard{
+    height:300px;
+    width:80%;
+    background: lightsteelblue;
+    margin-left: 10%;
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    padding:10px;
+}
+
+#imgDiv{
+ width:25%
+}
+
+#imgDiv img{
+    height:100%;
+    width:100%;
+}
+
+#textDiv{
+    width:65%;
+    margin: 3%;
 }

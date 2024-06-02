@@ -1,0 +1,76 @@
+body{
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height:60px;
+    /* border:5px solid hotpink; */
+    background-color: #3b2632;
+    color:white;
+}
+
+#brand{
+    float:left;
+    font-size:30px;
+    margin-top: 1%;
+    margin-left: 1%;
+
+}
+
+#social{
+    float: right;
+    margin-top: 5px;
+    margin-right: 1%;
+}
+.socialLogo{
+    height:50px
+}
+
+
+/* Search Css*/
+
+#search{
+    height:450px;
+    /* border: 10px groove gray; */
+    background-image: url('images/food-wallpaper.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 450px;
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 46%;
+    margin-top: 2%;
+    position: absolute;
+    font-size: 90px;
+}
+
+#logo span{
+    margin-left: 21%;
+    margin-top: 13%;
+    position: absolute;  
+}
+
+
+
+/* Quick Search Css */
+
+#quickSearch{
+    height:600px;
+    border: 10px double green; 
+}
+
+/* Footer Css */
+
+footer{
+    height:60px;
+    border:5px dotted orange;
+}
