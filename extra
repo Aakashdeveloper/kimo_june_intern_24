@@ -146,3 +146,28 @@ https://chromewebstore.google.com/detail/json-viewer/gbmdgpbipfallnflgajpaliibnh
 bootstrap
 > Responsive and better
 > third party css
+
+
+https://getbootstrap.com/docs/3.3/components/
+
+#boot3
+xs < 768px
+sm > 768px
+md > 992px
+lg > 1200px
+
+#boot4
+col- < 576px
+sm > 576px;
+md > 768px;
+lg > 992px
+xl > 1200px
+
+
+#boot5
+col- < 576px
+sm > 576px;
+md > 768px;
+lg > 992px
+xl > 1200px
+xxl > 1400px

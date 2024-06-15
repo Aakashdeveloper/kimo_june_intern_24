@@ -1,3 +1,47 @@
 .btn-olive{
     background-color: olive;
 }
+
+.sliderImage{
+    height:300px !important;
+    width:100%
+}
+
+.edit{
+    font-size:20px;
+    color:green
+}
+
+.delete{
+    font-size:20px;
+    color:red
+}
+
+#first{
+    height:200px;
+    background-color: violet;
+}
+#second{
+    height:200px;
+    background-color: indigo;
+}
+#third{
+    height:200px;
+    background-color: skyblue;
+}
+#fourth{
+    height:200px;
+    background-color: green;
+}
+#fifth{
+    height:200px;
+    background-color: yellow;
+}
+#sixth{
+    height:200px;
+    background-color: orange;
+}
+#seventh{
+    height:200px;
+    background-color: red;
+}
