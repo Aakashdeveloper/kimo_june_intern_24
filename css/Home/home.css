@@ -122,6 +122,16 @@ select{
     width:59%
 }
 
+#coupon{
+    height:300px;
+    width:600px;
+    background-color: green;
+    position:absolute;
+    margin-left: 30%;
+    z-index:100;
+    visibility: hidden;
+}
+
 
 
 /* Quick Search Css */

@@ -177,14 +177,14 @@ project submission form > https://forms.gle/PgyE5c7trtsNYVNdA
 
 ifelse
 function
-////////////////
 dom
 calc
-dark ligth
+dark light
 coupon
 stringopt
-array
 math opt
+////////////////
+array
 loop
 mapfilter
 rest spread
