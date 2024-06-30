@@ -184,11 +184,18 @@ coupon
 stringopt
 math opt
 array
-////////////////
 loop
 mapfilter
 rest spread
 object
+setInterval & setTimeout
+////////////////
 geolocation+api
 clouser
 hoisting
+storage
+
+https://api.openweathermap.org/data/2.5/forecast/daily?lat=28.9891537&lon=77.034262&&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29
+
+
+https://api.openweathermap.org/data/2.5/forecast/daily?q=london&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29

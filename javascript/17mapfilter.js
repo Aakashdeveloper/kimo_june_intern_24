@@ -31,3 +31,6 @@ a.map((data) => {return data*2})
 
 a.filter((data) => {return data*2})
 [1, 2, 3]
+
+
+
