@@ -33,6 +33,8 @@ css > Look and feel
 nodejs + express
 Mongodb
 
+17-18aug off
+
 1Sep
 react
 
@@ -189,10 +191,10 @@ mapfilter
 rest spread
 object
 setInterval & setTimeout
-////////////////
 geolocation+api
 clouser
 hoisting
+////////////////
 storage
 
 https://api.openweathermap.org/data/2.5/forecast/daily?lat=28.9891537&lon=77.034262&&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29
