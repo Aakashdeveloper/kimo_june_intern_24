@@ -218,3 +218,48 @@ D > Delete (DELETE)
 
 NPM
 > node package manager
+
+package.json
+> entry point to the app
+> it contain meta data(name,version,description)
+> script(start,test)
+> packages(dependency mangement)
+
+//step to generate package.json
+> open terminal and go inside the folder
+> type npm init
+> answer all questions
+> type 'yes'
+
+//step to install package 
+> open terminal and go inside the folder
+> npm i packagename
+
+package-lock.json
+> depencency tree
+
+> nodemon
+//global
+# window
+> open cmd as admin
+> npm i -g packagename
+
+# mac/linux
+> open terminal
+> sudo npm i -g packagename
+
+Final project will one ecom website of your chocie
+Min Req
+> Application must have min 4 pages
+a) HomePage
+b) Listing Page
+c) Place order page
+d) See order page
+
+> Need to Design UI (can be different from real app)
+and try to make responsive as much as you can
+> You need to create rest api for all pages
+> Min 5 category and each must have 5 records
+> Adding login functionality will be plus
+> Frontend should be in react with backend node/python
+and database should be mongodb

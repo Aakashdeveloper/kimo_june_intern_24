@@ -4,7 +4,7 @@ let http = require('http');
 //res > what we get from server
 
 let server = http.createServer((req,res)=>{
-    res.write("hii from node code server")
+    res.write("hii from nodejs code server app")
     res.end()
 })
 
