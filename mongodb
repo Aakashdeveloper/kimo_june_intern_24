@@ -1,0 +1,32 @@
+Signup> https://cloud.mongodb.com/
+Download > https://www.mongodb.com/try/download/compass
+
+Database > Clusters > Create
+Shared> aws > mumbai
+M0 Sandbox
+Click Create Cluster
+
+
+>>>>>>>>>>>>
+Connect
+> Drivers
+> mongodb+srv://<username>:<password>@cluster0.f8vmc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
+>>>>>>>>>>>>>>>
+Database Access
+> Add New Database User
+> Password 
+Provide any username >> aakash
+Autogenerate password>> 
+
+Built-in Role
+> Atlas Admin
+> Add User
+
+
+>>>>>>>>>>>>>>>
+Network Access
+> Add IP Address
+> Access List Entry: 0.0.0.0/0
+> Confirm
