@@ -1,0 +1,24 @@
+// First time from new folder for new repo
+
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Aakashdeveloper/SampleData.git
+git push -u origin main
+
+
+//original url
+>git remote add origin https://github.com/Aakashdeveloper/SampleData.git
+// after adding token
+>git remote add origin https://profilename:token@github.com/Aakashdeveloper/SampleData.git
+
+>git remote add origin https://aakashdeveloper:sdfheuchuibuib@github.com/Aakashdeveloper/SampleData.git
+
+/// next all time
+git add .
+git commit -m "first commit"
+git push
+
+
+	

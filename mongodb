@@ -30,3 +30,61 @@ Network Access
 > Add IP Address
 > Access List Entry: 0.0.0.0/0
 > Confirm
+
+////////////////////////////////
+(Sql)
+Roll No |  Hindi  | English | Computer
+    1   |    80   |         |
+    2   |         |   75    |
+    3   |    85   |         |    90
+
+(Mongo)
+[
+    {
+        rollNo:1,
+        Hindi:80
+    },
+    {
+        rollNo:2,
+        English:75
+    },
+    {
+        rollNo:3,
+        Hindi:85,
+        Computer:90
+    },
+]
+
+SQL          Mongo
+Database     Database
+Table        Collections
+Row          Columns
+Select       Find
+Insert       Insert
+Delete       Delete
+Update       Update
+
+
+/////////////////////////
+# See all dbs
+> show dbs
+
+# Go inside db
+> use database name
+
+# See collection dbs
+> show collections
+
+# find all data
+db.collection.find()
+
+# insert data
+db.collectionName.insert({name:"Aakash"})
+
+db.users.insert({name:"Aakash"})
+
+_id is primary key
+> every record will have it
+> value is always unique
+
+db.products.find({"category":"Electronics","company":"Bajaj"})
