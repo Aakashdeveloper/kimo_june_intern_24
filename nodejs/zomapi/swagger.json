@@ -1,0 +1,41 @@
+{
+    "openapi":"3.0.0",
+    "info":{
+        "description":"This is api for restaurants",
+        "version":"__version__"
+    },
+    "tags":[
+        {
+            "name":"PUBLIC ROUTE",
+            "description":"Public Route"
+        }
+    ],
+    "paths":{
+        "/health":{
+            "summary":"Testing Health Check",
+            "get":{
+                "description":"Testinhg User for app",
+                "tags":["PUBLIC ROUTE"],
+                "responses":{
+                    "200":{
+                        "description":"Health Check Pass"
+                    }
+                }
+
+            }
+        },
+        "/location":{
+            "summary":"Testing location route",
+            "get":{
+                "description":"Testinhg location route for app",
+                "tags":["PUBLIC ROUTE"],
+                "responses":{
+                    "200":{
+                        "description":"location route"
+                    }
+                }
+
+            }
+        }
+    }
+}

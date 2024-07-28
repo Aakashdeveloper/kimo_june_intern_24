@@ -270,3 +270,13 @@ cros
 cross origin resource sharing
 
 
+param
+> What we pass after /
+> we need to define param in route code
+> use to few values
+
+queryParam
+> What we pass after ?
+> No need to define
+> use to multiple values
+
