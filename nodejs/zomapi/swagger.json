@@ -29,6 +29,128 @@
             "get":{
                 "description":"Testinhg location route for app",
                 "tags":["PUBLIC ROUTE"],
+                "parameters":[
+                    {
+                        "name":"x-access-auth",
+                        "in":"header",
+                        "required":true
+                    }
+                ],
+                "responses":{
+                    "200":{
+                        "description":"location route"
+                    }
+                }
+
+            }
+        },
+        "/details":{
+            "summary":"Testing location route",
+            "get":{
+                "description":"Testinhg location route for app",
+                "tags":["PUBLIC ROUTE"],
+                "parameters":[
+                    {
+                        "name":"id",
+                        "in":"path",
+                        "required":true
+                    },
+                    {
+                        "name":"mealid",
+                        "in":"query"
+                    }
+                ],
+                "responses":{
+                    "200":{
+                        "description":"location route"
+                    }
+                }
+
+            }
+        },
+        "/placeOrder":{
+            "summary":"Testing location route",
+            "post":{
+                "description":"Testinhg location route for app",
+                "tags":["PUBLIC ROUTE"],
+                "requestBody":{
+                    "required":true,
+                    "content":{
+                        "application/json":{
+                            "schema":{
+                                "type":"object",
+                                "id":"string"
+                            },
+                            "example":{
+                                "name": "Rohit",
+                                "email": "rohit@gmail.com",
+                                "address": "Hom 65",
+                                "phone": 8934645457,
+                                "cost": 931,
+                                "menuItem": [
+                                    9,4,5
+                                ],
+                                "status": "Pending"
+                            }
+                        }
+                    }
+                },
+                "responses":{
+                    "200":{
+                        "description":"location route"
+                    }
+                }
+
+            }
+        },
+        "/updateOrder":{
+            "summary":"Testing location route",
+            "put":{
+                "description":"Testinhg location route for app",
+                "tags":["PUBLIC ROUTE"],
+                "requestBody":{
+                    "required":true,
+                    "content":{
+                        "application/json":{
+                            "schema":{
+                                "type":"object",
+                                "id":"string"
+                            },
+                            "example":{
+                                "_id":"3534f4645y45y54",
+                                "status": "Pending"
+                            }
+                        }
+                    }
+                },
+                "responses":{
+                    "200":{
+                        "description":"location route"
+                    }
+                }
+
+            }
+        },
+        "/deleteOrder":{
+            "summary":"Testing location route",
+            "delete":{
+                "description":"Testinhg location route for app",
+                "tags":["PUBLIC ROUTE"],
+                "requestBody":{
+                    "required":true,
+                    "content":{
+                        "application/json":{
+                            "schema":{
+                                "type":"object",
+                                "id":"string"
+                            },
+                            "example":{
+                                "_id":"3534f4645y45y54",
+                                "status": "Pending"
+                            }
+                        }
+                    }
+                },
                 "responses":{
                     "200":{
                         "description":"location route"

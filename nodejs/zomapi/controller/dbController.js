@@ -37,10 +37,33 @@ async function postData(colName,data){
     return output
 }
 
+async function updateData(colName,condition,data){
+    let output;
+    try{
+        output = await db.collection(colName).updateOne(condition,data)
+    }catch(err){
+        output = {"response":"Error in updating data"}
+    }
+    return output
+}
+
+async function deleteData(colName,condition){
+    let output;
+    try{
+        output = await db.collection(colName).deleteOne(condition)
+    }catch(err){
+        output ={"response":"Error in deleteing"}
+    }
+    return output
+
+}
+
 
 
 module.exports= {
     dbConnect,
     getData,
-    postData
+    postData,
+    updateData,
+    deleteData
 }

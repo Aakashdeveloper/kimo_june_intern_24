@@ -1,5 +1,7 @@
 let express =  require('express')
-let {dbConnect, getData,postData} = require('./controller/dbController');
+let {dbConnect, getData,postData,
+    updateData,
+    deleteData} = require('./controller/dbController');
 let app = express();
 let port = 9110;
 let cors = require('cors');
@@ -11,6 +13,8 @@ let {ObjectId} = require('mongodb')
 swaggerDocument.info.version = packageNumber.version;
 app.use('/api-doc',swaggerUi.serve,swaggerUi.setup(swaggerDocument))
 
+let key = "123Hdn4jwnd4o4"
+
 app.use(express.json())
 app.use(cors())
 
@@ -21,8 +25,14 @@ app.get('/health',(req,res) => {
 app.get('/location',async (req,res) => {
     let query = {};
     let collection = "location"
-    let output = await getData(collection,query)
-    res.send(output)
+    let authKey = req.headers['x-access-auth']
+    if(authKey == key){
+        let output = await getData(collection,query)
+        res.status(200).send(output)
+    }else{
+        res.status(401).send(`Unaunthorised`) 
+    }
+   
 })
 
 
@@ -128,6 +138,26 @@ app.get('/orders',async(req,res) => {
     let collection = "orders";
     let output = await getData(collection,query);
     res.send(output) 
+})
+
+//update order
+app.put('/updateOrder',async(req,res) => {
+    let collection = "orders"
+    let condition = {"_id":new ObjectId(req.body._id) }
+    let data ={
+        $set:{
+            "status":req.body.status
+        }
+    }
+    let response = await updateData(collection,condition,data)
+    res.send(response)
+})
+
+app.delete('/deleteOrder',async(req,res) => {
+    let collection = "orders"
+    let condition = {"_id":new ObjectId(req.body._id) }
+    let response = await deleteData(collection,condition);
+    res.send(response)
 })
 
 

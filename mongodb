@@ -88,3 +88,20 @@ _id is primary key
 > value is always unique
 
 db.products.find({"category":"Electronics","company":"Bajaj"})
+
+db.products.update({condition},{set}}
+
+db.products.update(
+    {_id:1},
+    {
+        $set:{
+            "status":"delivered"
+        }
+    }
+)
+
+
+db.products.deleteOne(condition)
+
+
+db.products.deleteOne({_id:1})
