@@ -282,3 +282,21 @@ queryParam
 
 render.com
 
+////Step to generate react app
+> open cmd as admin
+> npm i -g create-react-app
+
+//Every time you need new app
+> open cmd
+> go inside the folder where you want app
+> create-react-app appname
+
+
+SPA> Single Page Application
+
+Component based
+Hooks
+State & Props
+Calling api
+Routing
+Param & queryParam
