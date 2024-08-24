@@ -300,3 +300,12 @@ State & Props
 Calling api
 Routing
 Param & queryParam
+
+State
+Act a local variable 
+every component can have its own state and we can update
+when state update component will rerender
+
+Props
+> are the way by which we can transfer state from one component to another 
+in case of nested component

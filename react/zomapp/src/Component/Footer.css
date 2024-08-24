@@ -1,0 +1,85 @@
+
+/* Footer Css */
+
+footer{
+    /* height:60px; */
+    /* border:5px dotted orange; */
+    text-align: center;
+    background-color: #3b2632;
+    color:white
+}
+
+.footText{
+    text-align: center;
+}
+
+.footDiv{
+    width:32%;
+    display: inline-block;
+    border-right: 2px solid white;
+}
+
+.noborder{
+    border:none
+}
+
+ul{
+    list-style-type: none;
+}
+
+@media screen and (max-width:1600px){
+    body{
+        background-color: rgb(240, 187, 170);
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color: rgb(235, 240, 170);
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color: rgb(170, 240, 178);
+    }
+}
+
+@media screen and (max-width:1050px){
+    body{
+        background-color: rgb(170, 234, 240);
+    } 
+    .tileContainer{
+        width:45%
+    }
+}
+@media screen and (max-width:800px){
+    body{
+        background-color: rgb(194, 170, 240);
+    }
+    .tileContainer{
+        width:90%
+    }
+    #heading {
+        font-size: 47px;
+        margin-left: 0%;
+        margin-top: 40%;
+    }
+    .dropdown{
+        margin-left: 0%;
+        margin-top: 55%;
+        width:100%
+    }
+    select{
+        font-size:15px;
+    }
+    #logo{
+        margin-left: 27%;
+    }
+   
+}
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(228, 170, 240);
+    }
+}
