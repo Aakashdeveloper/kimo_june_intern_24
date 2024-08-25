@@ -1,0 +1,101 @@
+
+/* Search Css*/
+
+#search{
+    height:450px;
+    /* border: 10px groove gray; */
+    background-image: url('https://i.ibb.co/NVQxPB6/food-Wallpaper.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 450px;
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 46%;
+    margin-top: 2%;
+    position: absolute;
+    font-size: 90px;
+    animation: rotate 10s infinite;
+}
+
+@keyframes rotate {
+    0%{
+        margin-left: 2%;
+        transform: rotate(30deg);
+    }
+    25%{
+        margin-left: 20%;
+        transform: rotate(90deg);
+    }
+    50%{
+        margin-left: 40%;
+        transform: rotate(180deg);
+    }
+    75%{
+        margin-left: 80%;
+        transform: rotate(270deg);
+    }
+    100%{
+        margin-left: 40%;
+        transform: rotate(360deg);
+    }
+}
+
+
+/* @keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
+
+#logo span{
+    margin-left: 21%;
+    margin-top: 13%;
+    position: absolute;  
+}
+
+#heading{
+    font-size:60px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    margin-left: 30%;
+    margin-top: 15%;
+    position: absolute;
+}
+.dropdown{
+    height:60px;
+    width:50%;
+    /* border:2px solid white; */
+    margin-left: 28%;
+    margin-top: 22%;
+    position: absolute;
+}
+
+select{
+    height:60px;
+    width:40%;
+    font-size: 20px;
+    text-align: center;
+}
+
+#restSelect{
+    width:59%
+}
+
+#coupon{
+    height:300px;
+    width:600px;
+    background-color: green;
+    position:absolute;
+    margin-left: 30%;
+    z-index:100;
+    visibility: hidden;
+}

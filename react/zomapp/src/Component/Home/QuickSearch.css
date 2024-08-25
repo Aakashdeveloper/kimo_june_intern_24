@@ -1,0 +1,96 @@
+
+/* Quick Search Css */
+
+#quickSearch{
+    /* height:600px; */
+    /* border: 10px double green;  */
+    width:80%;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.quickHeading{
+    color:#3b2632;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    margin-left: 2%;
+}
+
+.quickHeading:hover{
+    font-size:40px;
+    color: #684358;
+}
+
+.quickSubHeading{
+    color:gray;
+    font-size: 20px;
+    line-height: 2;
+    margin-left: 2%;
+}
+
+.mainBox{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tileContainer{
+    height:180px;
+    margin-left: 2%;
+    margin-top: 3%;
+    width:30%;
+    /* border:2px solid gray; */
+    box-shadow: 10px 20px 5px gray;
+    display: flex;
+    animation: dance 10s infinite;
+}
+
+@keyframes dance {
+    0%{
+        transform: rotate(-5deg);
+    }
+    25%{
+        transform: rotate(0deg);
+    }
+    40%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: rotate(5deg);
+    }
+    75%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-5deg);
+    }
+}
+
+.tileContainer:hover{
+    transform: scale(1.1);
+    /* transform: skewY(30deg); */
+    /* transform: rotate(180deg); */
+}
+
+.tileComponent1{
+    width:52%
+}
+
+.tileComponent1> img{
+    height:100%;
+    width:100%
+}
+.tileComponent2{
+    width:40%;
+    margin-left: 5%;
+}
+.compHeading{
+    margin-top: 35%;
+    font-size: 20px;
+    font-weight: bold;
+    color:#3b2632
+}
+.compHeading >a {
+    color:#3b2632 !important
+}
