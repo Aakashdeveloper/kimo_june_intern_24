@@ -329,3 +329,6 @@ in case of nested component
 (get) allorder>            
        
 (get) restaurants>         http://3.17.216.66:4000/restaurants
+
+params
+querParams

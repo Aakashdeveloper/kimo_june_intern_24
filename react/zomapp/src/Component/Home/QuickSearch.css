@@ -36,7 +36,7 @@
 }
 
 .tileContainer{
-    height:180px;
+    height:200px;
     margin-left: 2%;
     margin-top: 3%;
     width:30%;
@@ -93,4 +93,9 @@
 }
 .compHeading >a {
     color:#3b2632 !important
+}
+
+
+.para{
+    color:gray
 }
