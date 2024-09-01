@@ -10,7 +10,7 @@ const Listing = () => {
 
     let params = useParams();
 
-    const [restList, setRestList] = useState([])
+    const [restList, setRestList] = useState()
 
     let mealId = params.mealId;
 
@@ -24,8 +24,15 @@ const Listing = () => {
 
     return(
         <>
-            <h1>Listing</h1>
-            <ListingDisplay listData={restList}/>
+            <div className='row'>
+                <div id='mainListing'>
+                    <div id="filter">
+
+                    </div>
+                </div>
+                <ListingDisplay listData={restList}/>
+            </div>
+            
         </>
     )
 
