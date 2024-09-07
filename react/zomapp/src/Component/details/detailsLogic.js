@@ -26,6 +26,10 @@ const DetailDisplay = () => {
 
     },[])
 
+    const proceed = () => {
+        navigate(`/placerOrder/${restDetails.restaurant_name}`)
+    }
+ 
     const renderDetails = () => {
         if(restDetails){
             return(
@@ -58,7 +62,8 @@ const DetailDisplay = () => {
                             to={`/listing/${mealId}`}>
                                 Back
                             </Link> &nbsp;&nbsp;
-                            <button className='btn btn-success'>
+                            <button className='btn btn-success'
+                            onClick={proceed}>
                                 Procced
                             </button>
                         </div>
