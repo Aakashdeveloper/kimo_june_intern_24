@@ -7,16 +7,17 @@ const CostFilter = (props) => {
 
     const handleFilter=(event) => {
         let mealId = props.mealId;
-        let cuisineId = event.target.value;
-        let cuisineUrl = ""
-        if(cuisineId === ""){
-            cuisineUrl = `${url}/${mealId}`
+        let cost = (event.target.value).split('-');
+        let lcost = cost[0];
+        let hcost = cost[1];
+        let costUrl = "";
+        if(event.target.value === ''){
+            costUrl = `${url}/${mealId}`
         }else{
-            cuisineUrl = `${url}/${mealId}?cuisine=${cuisineId}`
+            costUrl = `${url}/${mealId}?hcost=${hcost}&lcost=${lcost}`
         }
-
-        axios.get(cuisineUrl)
-        .then((res) => {props.restPerCusine(res.data)})
+        axios.get(costUrl)
+        .then((res) => {props.restPerCost(res.data)})
     }
 
     return(
@@ -27,19 +28,19 @@ const CostFilter = (props) => {
                     <input type="radio" name="cuisine" value=""/>All
                 </label>
                 <label className='radio'>
-                    <input type="radio" name="cuisine" value="1"/>North Indain
+                    <input type="radio" name="cuisine" value="0-300"/>0-300
                 </label>
                 <label className='radio'>
-                    <input type="radio" name="cuisine" value="2"/>South Indian
+                    <input type="radio" name="cuisine" value="301-600"/>301-600
                 </label>
                 <label className='radio'>
-                    <input type="radio" name="cuisine" value="3"/>Chinese
+                    <input type="radio" name="cuisine" value="601-900"/>601-900
                 </label>
                 <label className='radio'>
-                    <input type="radio" name="cuisine" value="4"/>Fast Food
+                    <input type="radio" name="cuisine" value="901-1200"/>901-1200
                 </label>
                 <label className='radio'>
-                    <input type="radio" name="cuisine" value="5"/>Street Food
+                    <input type="radio" name="cuisine" value="1201-5000"/>1201-5000
                 </label>
             </div>
         </>
