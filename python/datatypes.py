@@ -11,3 +11,12 @@ boolean = True False
 a = 10
 b = "Hii"
 print(a)
+
+a = "hii"
+b = 10
+
+print(type(a))
+<class 'str'>
+
+print(type(b))
+<class 'int'>
