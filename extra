@@ -310,6 +310,7 @@ Props
 > are the way by which we can transfer state from one component to another 
 in case of nested component
 
+//mongod --config /usr/local/etc/mongod.conf --fork
 
 (get) cityname >           http://3.17.216.66:4000/location
 (get) restwrtcity >        http://3.17.216.66:4000/restaurant?stateId=1
@@ -336,3 +337,8 @@ querParams
 https://app.netlify.com/
 
 https://developerfunnel.netlify.app/
+
+
+pip install flask pymongo
+
+pip install -r requirements.txt
