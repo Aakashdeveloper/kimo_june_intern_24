@@ -342,3 +342,7 @@ https://developerfunnel.netlify.app/
 pip install flask pymongo
 
 pip install -r requirements.txt
+
+
+JWT
+JSON web Token
