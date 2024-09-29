@@ -5,6 +5,7 @@ import Footer from './footer';
 import Login from './login';
 import Register from './register';
 import Main from './main';
+import Profile from './profile'
 
 const Routing = () => {
     return(
@@ -14,6 +15,7 @@ const Routing = () => {
                 <Route path="/" element={<Main/>}>
                     <Route index element={<Login/>}/>
                     <Route path="/register" element={<Register/>}/>
+                    <Route path="/profile" element={<Profile/>}/>
 
                 </Route>
             </Routes>
