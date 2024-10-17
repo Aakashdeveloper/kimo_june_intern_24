@@ -21,6 +21,6 @@ const fs = require('fs');
 
 fs.unlink('myfile.txt',(err) => {
     if(err) throw err
-    console.log("File Deleted")
+    console.log("File Deleted now")
 })
 
