@@ -20,3 +20,6 @@ print(type(a))
 
 print(type(b))
 <class 'int'>
+
+print(type(b))
+<class 'int'>
