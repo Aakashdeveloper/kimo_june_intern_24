@@ -345,5 +345,4 @@ pip install -r requirements.txt
 
 
 JWT
-JSON web Token code
-
+JSON web Token code app
