@@ -11,7 +11,7 @@ const Header = () => {
             </div>
             <div id="social">
                     <a>
-                        <img src="https://i.ibb.co/bsXv4bf/facebook.png" alt="fblogo" className="socialIcon"/>
+                        <img src="https://i.ibb.co/bsXv4bf/facebook.png" alt="fblogoaoo" className="socialIcon"/>
                     </a>
                     <a href="">
                         <img src="https://i.ibb.co/8c9LJP1/insta.png" alt="fblogo" className="socialIcon"/>
