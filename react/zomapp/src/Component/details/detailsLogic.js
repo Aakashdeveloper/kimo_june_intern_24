@@ -46,7 +46,7 @@ const DetailDisplay = () => {
                             <span id="cfeedback">231 Customer Rating {restDetails.rating_text}</span>
                             <h3>Old Price <del>Rs.950</del></h3>
                             <h3>Offer Price {restDetails.cost}</h3>
-                            <h3>Best Taste of Fresh Chai with Samosa At your Door or DineIn</h3>
+                            <h3>Best Taste of Fresh Chai with Samosa At your Door or DineIn.</h3>
                                 <div>
                                     <div className="icons">
                                         <img src="https://i.ibb.co/wJvrhYg/veg.png" alt=""/>
