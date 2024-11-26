@@ -6,7 +6,7 @@ import Listing from './listing/lisitingComponent';
 import Main from './main';
 import Details from './details/detailsLogic';
 import PlaceOrder from './Orders/placeOrder';
-import ViewOrder from './Orders/viewOrder'
+import ViewOrder from './Orders/viewOrder';
 
 const Routing = () => {
     return(
