@@ -158,6 +158,7 @@ app.delete('/deleteOrder',async(req,res) => {
     let condition = {"_id":new ObjectId(req.body._id) }
     let response = await deleteData(collection,condition);
     res.send(response)
+    
 })
 
 
